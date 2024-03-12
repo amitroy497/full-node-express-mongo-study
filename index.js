@@ -1,8 +1,12 @@
-const add = require('./add');
+const imp = require('./add');
+const data = require('./example');
 
-const sum = add(2, 3);
-const sum2 = add(5, 6);
+console.log(imp);
+console.log(imp.a);
+console.log(imp.b);
+console.log(imp.c);
 
-console.log(sum);
-console.log(sum2);
-console.log('Hello World!');
+console.log(data);
+
+console.log(data.name);
+console.log(data.name.person);
